@@ -3,6 +3,7 @@ package nl.novi.techiteasyfull.models;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import nl.novi.techiteasyfull.dtos.output.RemoteControllerDto;
 
 import java.util.List;
 

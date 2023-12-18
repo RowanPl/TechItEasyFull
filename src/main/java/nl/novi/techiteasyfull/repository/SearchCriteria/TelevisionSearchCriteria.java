@@ -1,4 +1,4 @@
-package nl.novi.techiteasyfull.repository.Specifications;
+package nl.novi.techiteasyfull.repository.SearchCriteria;
 
 import lombok.Data;
 

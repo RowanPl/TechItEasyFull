@@ -9,7 +9,7 @@ public class WallBracketDto {
 
         private Long id;
         private String size;
-        private String brand;
+        private Boolean adjustable;
         private String name;
         private Double price;
 

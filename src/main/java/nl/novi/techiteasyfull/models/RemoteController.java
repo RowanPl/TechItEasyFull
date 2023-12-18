@@ -14,7 +14,7 @@ import java.util.List;
 @Table(name = "remote_controllers")
 public class RemoteController {
     @Id
-    @GeneratedValue
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String compatibleWith;

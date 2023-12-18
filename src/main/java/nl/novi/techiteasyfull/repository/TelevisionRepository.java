@@ -12,4 +12,5 @@ public interface TelevisionRepository extends JpaSpecificationExecutor<Televisio
 
     List<Television> findAllByNameContaining(String name);
 
+    List<Television> findAllByOrderByIdAsc();
 }

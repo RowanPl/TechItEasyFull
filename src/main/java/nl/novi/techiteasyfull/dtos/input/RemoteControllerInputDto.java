@@ -15,4 +15,5 @@ public class RemoteControllerInputDto {
     private String brand;
     private Double price;
     private Integer originalStock;
+    private Long televisionId;
 }

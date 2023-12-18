@@ -16,7 +16,7 @@ import java.util.List;
 public class CIModule {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;

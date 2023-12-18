@@ -3,6 +3,8 @@ package nl.novi.techiteasyfull.dtos.output;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 public class TelevisionDto {
@@ -26,4 +28,5 @@ public class TelevisionDto {
 
     private CIModuleDto ciModuleDto;
     private RemoteControllerDto remoteControllerDto;
+    private List<WallBracketDto> wallBracketDto;
 }
